@@ -10,13 +10,13 @@ import lottieFile from '/public/lottie/study.json';
 function Education() {
   return (
     <div id="education" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
-      <Image
+      {/* <Image
         src="/section.svg"
         alt="Hero"
         width={1572}
         height={795}
         className="absolute top-0 -z-10"
-      />
+      /> */}
       <div className="flex justify-center -translate-y-[1px]">
         <div className="w-3/4">
           <div className="h-[1px] bg-gradient-to-r from-transparent via-violet-500 to-transparent  w-full" />
@@ -47,13 +47,13 @@ function Education() {
                 educations.map(education => (
                   <GlowCard key={education.id} identifier={`education-${education.id}`}>
                     <div className="p-3 relative text-white">
-                      <Image
+                      {/* <Image
                         src="/blur-23.svg"
                         alt="Hero"
                         width={1080}
                         height={200}
                         className="absolute bottom-0 opacity-80"
-                      />
+                      /> */}
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
                           {education.duration}
