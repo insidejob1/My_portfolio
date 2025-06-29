@@ -7,9 +7,9 @@ export const experiences = [
   },
   {
     id: 3,
-    title: "Intern(Upcoming)",
-    company: "Rashmi Group",
-    duration: "(Selected on September 2024 - Awaiting details)"
+    title: "Full Stack",
+    company: "Capsitech",
+    duration: "(Selected on June,2025-Currently working)"
   },
   {
     id: 5,
