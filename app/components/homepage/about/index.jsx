@@ -2,7 +2,7 @@
 
 import { personalData } from "@/utils/data/personal-data";
 import Image from "next/image";
-import ProfilePic from "/public/profile.png";
+import ProfilePic from "./../../../../public/image/profile.png";
 
 
 function AboutSection() {
